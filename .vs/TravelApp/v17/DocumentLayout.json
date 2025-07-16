@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simpe\\source\\repos\\TravelApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\map.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\map.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\locationmarker.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\locationmarker.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\newpopup.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\newpopup.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\geocoder.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\geocoder.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\popup.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\popup.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Geocoder.jsx",
+              "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Geocoder.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Geocoder.jsx",
+              "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Geocoder.jsx",
+              "RelativeToolTip": "src\\components\\Geocoder.jsx",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-15T11:05:16.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Popup.jsx",
+              "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Popup.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Popup.jsx",
+              "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Popup.jsx",
+              "RelativeToolTip": "src\\components\\Popup.jsx",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-15T09:05:30.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewPopup.jsx",
+              "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\NewPopup.jsx",
+              "RelativeDocumentMoniker": "src\\components\\NewPopup.jsx",
+              "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\NewPopup.jsx",
+              "RelativeToolTip": "src\\components\\NewPopup.jsx",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-14T12:07:25.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocationMarker.jsx",
+              "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\LocationMarker.jsx",
+              "RelativeDocumentMoniker": "src\\components\\LocationMarker.jsx",
+              "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\LocationMarker.jsx",
+              "RelativeToolTip": "src\\components\\LocationMarker.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-14T11:27:38.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Map.jsx",
+              "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Map.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Map.jsx",
+              "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Map.jsx",
+              "RelativeToolTip": "src\\components\\Map.jsx",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-14T10:43:17.093Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
