@@ -30,8 +30,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -42,8 +50,7 @@
               "RelativeToolTip": "src\\components\\Geocoder.jsx",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-15T11:05:16.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T11:05:16.803Z"
             },
             {
               "$type": "Document",
@@ -55,8 +62,7 @@
               "RelativeToolTip": "src\\components\\Popup.jsx",
               "ViewState": "AgIAABcAAAAAAAAAAAAAwCcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-15T09:05:30.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T09:05:30.988Z"
             },
             {
               "$type": "Document",
@@ -68,8 +74,7 @@
               "RelativeToolTip": "src\\components\\NewPopup.jsx",
               "ViewState": "AgIAAEAAAAAAAAAAAAAgwGQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-14T12:07:25.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T12:07:25.519Z"
             },
             {
               "$type": "Document",
@@ -81,8 +86,7 @@
               "RelativeToolTip": "src\\components\\LocationMarker.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-14T11:27:38.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T11:27:38.384Z"
             },
             {
               "$type": "Document",
@@ -92,7 +96,7 @@
               "RelativeDocumentMoniker": "src\\components\\Map.jsx",
               "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Map.jsx",
               "RelativeToolTip": "src\\components\\Map.jsx",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBEAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwBkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-07-14T10:43:17.093Z",
               "EditorCaption": ""
