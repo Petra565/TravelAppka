@@ -11,7 +11,7 @@ function NewPopup({ viewedPlaces, setViewedPlaces, markerPosition, closePopup })
     const [numberOfDays, setNumberOfDays] = useState(0);
 
     const handleClick = () => {
-        if (!markerPosition) return;
+        if (!markerPosition) return
         const viewedPlace =
         {
             title,
@@ -30,11 +30,6 @@ function NewPopup({ viewedPlaces, setViewedPlaces, markerPosition, closePopup })
     }
 
     useEffect(() => {
-        console.log(viewedPlaces)
-
-    }, [viewedPlaces])
-
-    useEffect(() => {
         if (startDate && endDate) {
             const start = startDate;
             start.setHours(0, 0, 0, 0);
@@ -47,9 +42,11 @@ function NewPopup({ viewedPlaces, setViewedPlaces, markerPosition, closePopup })
         } else {
             setNumberOfDays(0);
         }
+
     }, [startDate, endDate])
 
     return (
+
         <Popup>
             <h4 className="text-lg my-1 text-center justify-center">Pridať medzi navštívené miesta</h4>
             <label className="text-md">Názov miesta</label>
@@ -60,21 +57,41 @@ function NewPopup({ viewedPlaces, setViewedPlaces, markerPosition, closePopup })
                 onChange={(e) => setTitle(e.target.value)}
             >
             </input>
-            <label className="text-md">Od</label>
+
+            <div className="w-full">
+                <label className="text-md">Od</label>
+            </div>
+
             <DatePicker
-                className="mt-1 mb-4 h-[2rem] w-full border rounded-md border-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-400 p-4"
+                className="mt-1 mb-4 h-[2rem] border rounded-md border-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-400 p-4"
                 selected={startDate}
-                onChange={(date) => setStartDate(date)}
+                onChange={(date, event) => {
+                    if (event) event.stopPropagation();
+                    setStartDate(date)
+                }}
                 dateFormat="dd.MM.yyyy"
+                wrapperClassName="w-full"
+                customInput={<input style={{ width: '100%' }} />}
             />
-            <label className="text-md">Do</label>
+            <div className="w-full">
+                <label className="text-md ">Do</label>
+            </div>
+
             <DatePicker
-                className="mt-1 mb-4 h-[2rem] w-full border rounded-md border-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-400 p-4"
+                className="mt-1 mb-4 h-[2rem] border rounded-md border-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-400 p-4"
                 selected={endDate}
-                onChange={(date) => setEndDate(date)}
+                onChange={(date, event) => {
+                    if (event) event.stopPropagation();
+                    setEndDate(date)
+                }}
                 dateFormat="dd.MM.yyyy"
+                wrapperClassName="w-full"
+                customInput={<input style={{ width: '100%' }} />}
             />
-            <label className="text-md">Počet dní</label>
+
+            <div className="w-full">
+                <label className="text-md">Počet dní</label>
+            </div>
 
             <input
                 type="number"

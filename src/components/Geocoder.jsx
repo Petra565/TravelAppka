@@ -13,6 +13,7 @@ function GeocoderControl({ setSelectedPosition }) {
         const geocoder = L.Control.geocoder({
             defaultMarkGeocode: false,
         })
+
             .on('markgeocode', function (e) {
                 const center = e.geocode.center;
                 setSelectedPosition(center)
