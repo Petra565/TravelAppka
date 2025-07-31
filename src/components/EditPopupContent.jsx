@@ -105,7 +105,7 @@ function EditPopupContent({ editPlaceIndex, placeToEdit, closePopup, setViewedPl
                     Uložiť
                 </button>
                 <button
-                    className="col-span-1 h-[2rem] rounded-md bg-[#faa302] hover:bg-[#c78202]  items-center px-4 text-white cursor-pointer"
+                    className="col-span-1 h-[2rem] rounded-md bg-[#ffb703] hover:bg-[#CC9200]  items-center px-4 text-white cursor-pointer"
                     onClick={(event) => {
                         if (event) event.stopPropagation()
                         closePopup()

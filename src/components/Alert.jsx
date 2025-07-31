@@ -13,7 +13,7 @@ function Alert({ setIsOpen, isOpen, setDeletePlace }) {
                             <div className="col-span-1"></div>
                             <div className="col-span-1 grid grid-cols-2 gap-4">
                                 <button
-                                    className="col-span-1 h-[2rem] rounded-md bg-[#faa302] hover:bg-[#c78202] items-center px-4 text-white cursor-pointer"
+                                    className="col-span-1 h-[2rem] rounded-md bg-[#ffb703] hover:bg-[#CC9200] items-center px-4 text-white cursor-pointer"
                                     onClick={() => {
                                         setIsOpen(false)
                                         setDeletePlace(true)

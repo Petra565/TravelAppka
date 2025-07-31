@@ -21,7 +21,7 @@ function PopupContent({ place, openEdit, index, viewedPlaces, setViewedPlaces })
     return (
 
         <div className="">
-            <h4 className="mt-4 text-lg rounded-md text-center bg-[#faa302] text-white ">{place.title}</h4>
+            <h4 className="mt-4 text-lg rounded-md text-center bg-[#ffb703] text-white ">{place.title}</h4>
             <h6 className="mt-4 text-md rounded-md text-center">Od {place.startDate ? moment(place.startDate).format('DD.MM.YYYY') : ''} do {place.endDate ? moment(place.endDate).format('DD.MM.YYYY') : ''}</h6>
             <h6 className="mt-4 text-md rounded-md text-center">Počet dní: {place.numberOfDays}</h6>
             <p className="break-words text-center whitespace-pre-wrap">{place.text}</p>
@@ -36,7 +36,7 @@ function PopupContent({ place, openEdit, index, viewedPlaces, setViewedPlaces })
                     Upraviť
                 </button>
                 <button
-                    className="col-span-1 h-[2rem] rounded-md bg-[#faa302] hover:bg-[#c78202] items-center px-4 text-white cursor-pointer"
+                    className="col-span-1 h-[2rem] rounded-md bg-[#ffb703] hover:bg-[#CC9200] items-center px-4 text-white cursor-pointer"
                     onClick={() => setIsOpen(true)}
                 >
                     Vymazať

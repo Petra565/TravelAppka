@@ -6,11 +6,14 @@ import L from 'leaflet';
 import 'leaflet-control-geocoder';
 import 'leaflet-control-geocoder/dist/Control.Geocoder.css';
 import GeocoderControl from './Geocoder'
+import Menu from './Menu'
 
 
 function Map() {
     const [viewedPlaces, setViewedPlaces] = useState([])
     const [selectedPosition, setSelectedPosition] = useState(null)
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const [indexToOpen, setIndexToOpen] = useState(false)
 
     useEffect(() => {
         const storedPlaces = localStorage.getItem('viewedPlaces');
@@ -44,6 +47,19 @@ function Map() {
 
     return (
         <>
+            <button
+                className="bg-sky-400 hover:bg-sky-600 absolute right-2 top-40 px-4 py-2 rounded-xl  text-white cursor-pointer z-600"
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+                Menu
+            </button>
+            {isMenuOpen &&
+                <Menu
+                    viewedPlaces={viewedPlaces}
+                    setIndexToOpen={setIndexToOpen }
+                ></Menu>
+            }
+
             <MapContainer
                 center={position}
                 zoom={2.5}
@@ -53,6 +69,7 @@ function Map() {
                 maxBounds={bounds}
                 maxBoundsViscosity={1.0}
                 worldCopyJump={false}
+                zoomControl={false}
             >
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -68,8 +85,11 @@ function Map() {
                     setClickedPosition={setSelectedPosition}
                     viewedPlaces={viewedPlaces}
                     setViewedPlaces={setViewedPlaces}
+                    indexToOpen={indexToOpen}
+                    setIndexToOpen={setIndexToOpen }
                 >
                 </LocationMarker>
+
             </MapContainer>
         </>
     );
