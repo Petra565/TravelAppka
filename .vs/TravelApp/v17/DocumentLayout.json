@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\simpe\\source\\repos\\TravelApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\map.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\map.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\locationmarker.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\locationmarker.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\editpopupcontent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\editpopupcontent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\popupcontent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\popupcontent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\alert.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\alert.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\newpopup.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\newpopup.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\popupcontent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\popupcontent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\editpopupcontent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\editpopupcontent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\alert.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|solutionrelative:src\\components\\alert.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88115D39-99AC-41A6-8A1C-1FF89451FBDC}|travelapp.esproj|c:\\users\\simpe\\source\\repos\\travelapp\\src\\components\\geocoder.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -50,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,55 +70,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Menu.jsx",
               "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Menu.jsx",
               "RelativeDocumentMoniker": "src\\components\\Menu.jsx",
               "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Menu.jsx",
               "RelativeToolTip": "src\\components\\Menu.jsx",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAwFIAAACEAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-30T10:45:44.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T10:45:44.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "App.css",
               "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\App.css",
               "RelativeDocumentMoniker": "src\\App.css",
               "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\App.css",
               "RelativeToolTip": "src\\App.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-30T08:21:10.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T08:21:10.631Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Alert.jsx",
-              "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Alert.jsx",
-              "RelativeDocumentMoniker": "src\\components\\Alert.jsx",
-              "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Alert.jsx",
-              "RelativeToolTip": "src\\components\\Alert.jsx",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-29T11:17:17.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "EditPopupContent.jsx",
               "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\EditPopupContent.jsx",
               "RelativeDocumentMoniker": "src\\components\\EditPopupContent.jsx",
               "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\EditPopupContent.jsx",
               "RelativeToolTip": "src\\components\\EditPopupContent.jsx",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAwGsAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-25T11:02:16.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T11:02:16.662Z"
             },
             {
               "$type": "Document",
@@ -120,23 +112,21 @@
               "RelativeDocumentMoniker": "src\\components\\PopupContent.jsx",
               "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\PopupContent.jsx",
               "RelativeToolTip": "src\\components\\PopupContent.jsx",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAACEAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-15T09:05:30.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T09:05:30.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LocationMarker.jsx",
               "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\LocationMarker.jsx",
               "RelativeDocumentMoniker": "src\\components\\LocationMarker.jsx",
               "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\LocationMarker.jsx",
               "RelativeToolTip": "src\\components\\LocationMarker.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAwBwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-14T11:27:38.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T11:27:38.384Z"
             },
             {
               "$type": "Document",
@@ -146,40 +136,74 @@
               "RelativeDocumentMoniker": "src\\components\\Map.jsx",
               "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Map.jsx",
               "RelativeToolTip": "src\\components\\Map.jsx",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwDkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-14T10:43:17.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T10:43:17.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NewPopup.jsx",
-              "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\NewPopup.jsx",
-              "RelativeDocumentMoniker": "src\\components\\NewPopup.jsx",
-              "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\NewPopup.jsx",
-              "RelativeToolTip": "src\\components\\NewPopup.jsx",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAAwHIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-14T12:07:25.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\App.jsx",
               "RelativeDocumentMoniker": "src\\App.jsx",
               "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\App.jsx",
               "RelativeToolTip": "src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-07-30T10:12:02.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-05T15:37:49.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewPopup.jsx",
+              "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\NewPopup.jsx",
+              "RelativeDocumentMoniker": "src\\components\\NewPopup.jsx",
+              "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\NewPopup.jsx",
+              "RelativeToolTip": "src\\components\\NewPopup.jsx",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-14T12:07:25.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Alert.jsx",
+              "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Alert.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Alert.jsx",
+              "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Alert.jsx",
+              "RelativeToolTip": "src\\components\\Alert.jsx",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-29T11:17:17.619Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\index.css",
+              "RelativeDocumentMoniker": "src\\index.css",
+              "ToolTip": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\index.css",
+              "RelativeToolTip": "src\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-05T15:33:27.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Geocoder.jsx",
               "DocumentMoniker": "C:\\Users\\simpe\\source\\repos\\TravelApp\\src\\components\\Geocoder.jsx",
               "RelativeDocumentMoniker": "src\\components\\Geocoder.jsx",

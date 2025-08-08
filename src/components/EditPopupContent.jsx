@@ -3,7 +3,7 @@ import { useState } from "react"
 import { useEffect } from "react"
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-function EditPopupContent({ editPlaceIndex, placeToEdit, closePopup, setViewedPlaces, viewedPlaces, position}) {
+function EditPopupContent({ editPlaceIndex, placeToEdit, closePopup, setViewedPlaces, viewedPlaces}) {
     const [editedPlace, setEditedPlace] = useState({
         title: '',
         text: '',
@@ -49,7 +49,11 @@ function EditPopupContent({ editPlaceIndex, placeToEdit, closePopup, setViewedPl
     return (
         <>
             <h4 className="text-lg my-1 text-center justify-center">Pridať medzi navštívené miesta</h4>
+
             <label className="text-md">Názov miesta</label>
+
+            <label className="text-md">Názov miesta</label>
+
             <input
                 type="text"
                 className="mt-1 mb-4 h-[2rem] w-full border rounded-md border-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-400 p-4"
@@ -59,6 +63,7 @@ function EditPopupContent({ editPlaceIndex, placeToEdit, closePopup, setViewedPl
             </input>
 
             <div className="w-full"><label className="text-md w-full">Od</label></div>
+
             <DatePicker
                 className=" w-full mt-1 mb-4 h-[2rem] border rounded-md border-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-400 p-4"
                 selected={editedPlace.startDate}
@@ -69,6 +74,7 @@ function EditPopupContent({ editPlaceIndex, placeToEdit, closePopup, setViewedPl
                 dateFormat="dd.MM.yyyy"
                 wrapperClassName="w-full"
             />
+
             <div className="w-full"><label className="text-md">Do</label></div>
 
             <DatePicker
@@ -81,6 +87,7 @@ function EditPopupContent({ editPlaceIndex, placeToEdit, closePopup, setViewedPl
                 dateFormat="dd.MM.yyyy"
                 wrapperClassName="w-full"
             />
+
             <div className="w-full"><label className="text-md">Počet dní</label></div>
 
             <input
@@ -90,13 +97,16 @@ function EditPopupContent({ editPlaceIndex, placeToEdit, closePopup, setViewedPl
                 onChange={(e) => setEditedPlace({ ...editedPlace, numberOfDays: e.target.value })}
             >
             </input>
+
             <label className="text-md">Napíšte niečo o tomto mieste</label>
+
             <textarea
                 className=" mt-1 w-full h-32 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-400 p-4 mb-2"
                 value={editedPlace.text}
                 onChange={(e) => setEditedPlace({ ...editedPlace, text: e.target.value })}
                 placeholder=""
             />
+
             <div className="buttons grid grid-cols-2 gap-x-4">
                 <button
                     className="col-span-1 h-[2rem] rounded-md bg-sky-400 hover:bg-sky-600  items-center px-4 text-white cursor-pointer"
@@ -104,6 +114,7 @@ function EditPopupContent({ editPlaceIndex, placeToEdit, closePopup, setViewedPl
                 >
                     Uložiť
                 </button>
+
                 <button
                     className="col-span-1 h-[2rem] rounded-md bg-[#ffb703] hover:bg-[#CC9200]  items-center px-4 text-white cursor-pointer"
                     onClick={(event) => {

@@ -8,12 +8,33 @@ import 'leaflet-control-geocoder/dist/Control.Geocoder.css';
 import GeocoderControl from './Geocoder'
 import Menu from './Menu'
 
-
-function Map() {
+function Map({ headerHeight, viewport }) {
     const [viewedPlaces, setViewedPlaces] = useState([])
     const [selectedPosition, setSelectedPosition] = useState(null)
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     const [indexToOpen, setIndexToOpen] = useState(false)
+
+    const examplePlace1 =
+    {
+        title: 'Príklad-London',
+        text: 'Sem napíšte zážitky, ktoré ste zažili na tomto mieste alebo napíšte čo sa vám na tomto mieste páčilo.',
+        startDate: "2025-06-30T22:00:00.000Z",
+        endDate: "2025-07-31T22:00:00.000Z",
+        numberOfDays: 31,
+        lat: 51.50190410761811,
+        lng: - 0.09887695312500001
+    }
+
+    const examplePlace2 =
+    {
+        title: "Príklad-Oslo",
+        text: "Sem napíšte zážitky, ktoré ste zažili na tomto mieste alebo napíšte čo sa vám na tomto mieste páčilo.",
+        startDate: "2025-06-30T22:00:00.000Z",
+        endDate: "2025-08-31T22:00:00.000Z",
+        numberOfDays: 62,
+        lat: 59.94125582542067,
+        lng: 10.747032165527346,
+    }
 
     useEffect(() => {
         const storedPlaces = localStorage.getItem('viewedPlaces');
@@ -27,6 +48,17 @@ function Map() {
             localStorage.setItem('viewedPlaces', JSON.stringify(viewedPlaces));
         }
     }, [viewedPlaces]);
+
+    useEffect(() => {
+        const storedPlaces = localStorage.getItem('viewedPlaces');
+        if (!storedPlaces) {
+            const examplePlaces = [examplePlace1, examplePlace2];
+            setViewedPlaces(examplePlaces);
+            localStorage.setItem('viewedPlaces', JSON.stringify(examplePlaces));
+        } else {
+            setViewedPlaces(JSON.parse(storedPlaces))
+        }
+    }, [])
 
     const MapRightClickHandler = () => {
         useMapEvents({
@@ -48,7 +80,7 @@ function Map() {
     return (
         <>
             <button
-                className="bg-sky-400 hover:bg-sky-600 absolute right-2 top-40 px-4 py-2 rounded-xl  text-white cursor-pointer z-600"
+                className="bg-sky-400 hover:bg-sky-600 absolute right-2 top-27 sm:top-40 px-4 py-2 rounded-xl  text-white cursor-pointer z-600"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
                 Menu
@@ -56,14 +88,17 @@ function Map() {
             {isMenuOpen &&
                 <Menu
                     viewedPlaces={viewedPlaces}
-                    setIndexToOpen={setIndexToOpen }
+                    setIndexToOpen={setIndexToOpen}
+                    setIsMenuOpen={setIsMenuOpen}
+                    isMenuOpen={isMenuOpen}
+                    viewport={viewport}
                 ></Menu>
             }
 
             <MapContainer
                 center={position}
                 zoom={2.5}
-                style={{ height: '100vh', width: '100%' }}
+                style={{ height: `calc(100vh - ${headerHeight}px)`, width: '100%' }}
                 minZoom={2.5}
                 scrollWheelZoom={true}
                 maxBounds={bounds}
@@ -86,7 +121,7 @@ function Map() {
                     viewedPlaces={viewedPlaces}
                     setViewedPlaces={setViewedPlaces}
                     indexToOpen={indexToOpen}
-                    setIndexToOpen={setIndexToOpen }
+                    setIndexToOpen={setIndexToOpen}
                 >
                 </LocationMarker>
 
