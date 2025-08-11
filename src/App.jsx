@@ -30,7 +30,7 @@ function App() {
                 ref={headerRef}
                 className="font-[Corinthia] font-bold text-[4rem] sm:text-[6rem] text-white bg-[#ffb703] px-6 w-full text-center"
             >
-                TravelApp
+                TravelAppka
             </header>
 
             {headerHeight && (

@@ -66,7 +66,7 @@ function Menu({ viewedPlaces, setIndexToOpen, setIsMenuOpen, viewport }) {
 
                         <h1 className="col-span-1 text-center text-lg sm:text-xl mb-2 sm:mb-4">Počet dní</h1>
 
-                        <section className="listOfViewedPlaces grid col-span-full grid-cols-2 max-h-[280px] sm:max-h-[480px] overflow-y-auto">
+                        <section className="listOfViewedPlaces grid col-span-full grid-cols-2 max-h-[280px] sm:max-h-[280px] overflow-y-auto">
                             {viewedPlaces.map((place, index) => (
                                 <div
                                     key={index}
@@ -110,7 +110,7 @@ function Menu({ viewedPlaces, setIndexToOpen, setIsMenuOpen, viewport }) {
                         </div>
 
                         {plannedPlaces.length > 0 &&
-                            <section className="list mt-4 bg-white grid col-span-full grid-cols-4  py-2 rounded-sm grid-cols-2 max-h-[295px] sm:max-h-[466px] overflow-y-auto">
+                            <section className="list mt-4 bg-white grid col-span-full grid-cols-4  py-2 rounded-sm grid-cols-2 max-h-[295px] sm:max-h-[295px] overflow-y-auto">
                                 <h1 className="text-black font-[Corinthia] place-items-center grid text-4xl col-span-full">Plánované miesta</h1>
 
                                 {plannedPlaces.map((place, index) => (
